@@ -162,3 +162,13 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 # idea folder, uncomment if you don't need it
 # .idea
+# Devenv
+.devenv*
+devenv.local.nix
+devenv.local.yaml
+
+# direnv
+.direnv
+
+# pre-commit
+.pre-commit-config.yaml
