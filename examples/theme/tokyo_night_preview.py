@@ -8,7 +8,7 @@ from manim_themes.theme_preview import theme_preview
 class TokyonightPreview(Scene):
 
     def setup(self):
-        theme = "tokyonight"
+        theme = "TokyoNight"
         apply_theme(manim_scene=self, theme_name=theme)
 
 

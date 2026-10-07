@@ -8,7 +8,7 @@ class PolygonExample(m.Scene):
     def setup(self):
         # Set the background color to a light beige
         #theme = "Retro"
-        theme="CrayonPonyFish"
+        theme="Crayon Pony Fish"
         apply_theme(manim_scene=self, theme_name=theme)
 
 

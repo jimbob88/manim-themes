@@ -7,7 +7,7 @@ from manim_themes.theme_preview import theme_preview
 class TokyonightDayPreview(m.Scene):
 
     def setup(self):
-        theme = "tokyonight-day"
+        theme = "TokyoNight Day"
         apply_theme(manim_scene=self, theme_name=theme, light_theme=True)
         # You might want to set the default font and color for text here
         m.Text.set_default(font="Courier New", color=m.WHITE)

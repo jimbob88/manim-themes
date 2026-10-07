@@ -19,7 +19,7 @@ This gallery contains a collection of code snippets together with their correspo
     class CatppucinLattePreview(Scene):
     
         def setup(self):
-            theme = "catppuccin-latte"
+            theme = "Catppuccin Latte"
             apply_theme(manim_scene=self, theme_name=theme)
     
     
@@ -58,7 +58,7 @@ This gallery contains a collection of code snippets together with their correspo
     class CatppucinMochaPreview(Scene):
     
         def setup(self):
-            theme = "catppuccin-mocha"
+            theme = "Catppuccin Mocha"
             apply_theme(manim_scene=self, theme_name=theme)
     
     
@@ -98,7 +98,7 @@ This gallery contains a collection of code snippets together with their correspo
     class TokyonightPreview(Scene):
     
         def setup(self):
-            theme = "tokyonight"
+            theme = "TokyoNight"
             apply_theme(manim_scene=self, theme_name=theme)
     
     
@@ -136,7 +136,7 @@ This gallery contains a collection of code snippets together with their correspo
     class TokyonightDayPreview(m.Scene):
     
         def setup(self):
-            theme = "tokyonight-day"
+            theme = "TokyoNight Day"
             apply_theme(manim_scene=self, theme_name=theme, light_theme=True)
             # You might want to set the default font and color for text here
             m.Text.set_default(font="Courier New", color=m.WHITE)
@@ -223,7 +223,7 @@ This gallery contains a collection of code snippets together with their correspo
                 "3024 Night",
                 "BlueDolphin",
                 "CGA",
-                "CutiePro",
+                "Cutie Pro",
                 "DjangoRebornAgain",
                 "DjangoSmooth",
                 "Ghostty Default StyleDark",
@@ -232,7 +232,7 @@ This gallery contains a collection of code snippets together with their correspo
                 "PaleNightHC",
                 "RetroLegends",
                 "shades-of-purple",
-                "SleepyHollow",
+                "Sleepy Hollow",
                 "Aardvark Blue",
                 "Abernathy",
                 "Adventure",
@@ -276,9 +276,9 @@ This gallery contains a collection of code snippets together with their correspo
                 "C64",
                 "Calamity",
                 "catppuccin-frappe",
-                "catppuccin-latte",
+                "Catppuccin Latte",
                 "catppuccin-macchiato",
-                "catppuccin-mocha",
+                "Catppuccin Mocha",
                 "ENCOM",
                 "Chalk",
                 "Chalkboard",
@@ -292,7 +292,7 @@ This gallery contains a collection of code snippets together with their correspo
                 "CobaltNext",
                 "CobaltNext-Dark",
                 "CobaltNext-Minimal",
-                "CrayonPonyFish",
+                "Crayon Pony Fish",
                 "Cyberdyne",
                 "cyberpunk",
                 "CyberpunkScarletProtocol",
@@ -335,7 +335,7 @@ This gallery contains a collection of code snippets together with their correspo
                 "Fideloper",
                 "Firefly Traditional",
                 "Firewatch",
-                "FishTank",
+                "Fish Tank",
                 "Flat",
                 "Flatland",
                 "flexoki-dark",
@@ -350,23 +350,23 @@ This gallery contains a collection of code snippets together with their correspo
                 "GitLab-Dark-Grey",
                 "GitLab-Light",
                 "Github",
-                "GitHub-Dark-Colorblind",
-                "GitHub-Dark-Default",
+                "Github Dark Colorblind",
+                "Github Dark Default",
                 "GitHub-Dark-Dimmed",
-                "GitHub-Dark-High-Contrast",
-                "GitHub-Light-Colorblind",
-                "GitHub-Light-Default",
+                "GitHub Dark High Contrast",
+                "GitHub Light Colorblind",
+                "GitHub Light Default",
                 "GitHub-Light-High-Contrast",
                 "GitHub Dark",
                 "Glacier",
                 "Grape",
                 "Grass",
-                "Grey-green",
+                "Grey Green",
                 "gruber-darker",
-                "GruvboxDark",
-                "GruvboxDarkHard",
-                "GruvboxLight",
-                "GruvboxLightHard",
+                "Gruvbox Dark",
+                "Gruvbox DarkHard",
+                "Gruvbox Light",
+                "Gruvbox Light Hard",
                 "gruvbox-material",
                 "Guezwhoz",
                 "Hacktober",
@@ -448,7 +448,7 @@ This gallery contains a collection of code snippets together with their correspo
                 "MonaLisa",
                 "Apple Classic",
                 "sonokai",
-                "nord-light",
+                "Nord Light",
                 "Monokai Classic",
                 "Monokai Pro",
                 "Monokai Pro Light",
@@ -470,11 +470,11 @@ This gallery contains a collection of code snippets together with their correspo
                 "nightfox",
                 "NightLion v1",
                 "NightLion v2",
-                "niji",
+                "Niji",
                 "Nocturnal Winter",
                 "nord",
                 "nord-wave",
-                "xcodelighthc",
+                "Xcode Light hc",
                 "Novel",
                 "Obsidian",
                 "Ocean",
@@ -488,7 +488,7 @@ This gallery contains a collection of code snippets together with their correspo
                 "Oxocarbon",
                 "Pandora",
                 "Paraiso Dark",
-                "PaulMillr",
+                "Paul Millr",
                 "PencilDark",
                 "PencilLight",
                 "Peppermint",
@@ -561,11 +561,11 @@ This gallery contains a collection of code snippets together with their correspo
                 "The Hulk",
                 "Tinacious Design (Dark)",
                 "Tinacious Design (Light)",
-                "tokyonight",
-                "tokyonight-day",
-                "tokyonight_moon",
-                "tokyonight_night",
-                "tokyonight-storm",
+                "TokyoNight",
+                "TokyoNight Day",
+                "TokyoNight Moon",
+                "TokyoNight Night",
+                "TokyoNight Storm",
                 "Tomorrow",
                 "Tomorrow Night",
                 "Tomorrow Night Blue",

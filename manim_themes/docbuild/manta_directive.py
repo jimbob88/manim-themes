@@ -173,7 +173,7 @@ class ManimDirective(Directive):
         # Rendering is skipped if the tag skip-manim is present,
         # or if we are making the pot-files
         should_skip = (
-                "skip-manim" in self.state.document.settings.env.app.builder.tags.tags
+                "skip-manim" in self.state.document.settings.env.app.builder.tags._tags
                 or self.state.document.settings.env.app.builder.name == "gettext"
         )
         if should_skip:
@@ -298,7 +298,7 @@ class ManimDirective(Directive):
                 video_dir = config.get_dir("video_dir")
                 images_dir = config.get_dir("images_dir")
         except Exception as e:
-            raise RuntimeError(f"Error while rendering example {clsname}") from e
+            raise RuntimeError(f"Error while rendering example {clsname} {e}") from e
 
         _write_rendering_stats(
             clsname,

@@ -8,7 +8,7 @@ from manim_themes.theme_preview import theme_preview
 class CatppucinLattePreview(Scene):
 
     def setup(self):
-        theme = "catppuccin-latte"
+        theme = "Catppuccin Latte"
         apply_theme(manim_scene=self, theme_name=theme)
 
 

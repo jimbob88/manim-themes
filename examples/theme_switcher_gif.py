@@ -13,7 +13,7 @@ class ThemeGif(m.Scene):
             "Terminal Basic Dark",
             "The Hulk",
             "Tinacious Design (Dark)",
-            "tokyonight-storm",
+            "TokyoNight Storm",
             "ToyChest",
             "Ubuntu",
             "UltraViolent",
