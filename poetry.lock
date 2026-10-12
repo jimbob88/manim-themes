@@ -956,14 +956,14 @@ type = ["pygobject-stubs", "pytest-mypy (>=1.0.1)", "shtab", "types-pywin32"]
 
 [[package]]
 name = "manim"
-version = "0.21.0"
+version = "0.22.0"
 description = "Animation engine for explanatory math videos."
 optional = false
 python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "manim-0.21.0-py3-none-any.whl", hash = "sha256:021001097bb568372fa8f5d1dcf46ba085c8502c10efb2312ff45f19f7facb60"},
-    {file = "manim-0.21.0.tar.gz", hash = "sha256:2f3d719e726c9abf49b1bea503fb17510ee2063dab53915ab44a2c47c32f9a13"},
+    {file = "manim-0.22.0-py3-none-any.whl", hash = "sha256:bce56dbe420ce002cb77076c0b4e041637a0bd41ce5749e837e96375937e935f"},
+    {file = "manim-0.22.0.tar.gz", hash = "sha256:e227aef6dab218c7fe68fa31ed1ff418e1c86a450f43509ed2630f3ffd06602d"},
 ]
 
 [package.dependencies]
@@ -972,9 +972,9 @@ av = ">=15.0"
 beautifulsoup4 = ">=4.12"
 click = ">=8.0"
 cloup = ">=2.0.0"
-decorator = ">=4.3.2"
+decorator = ">=5.1.0"
 isosurfaces = ">=0.1.1"
-manimpango = ">=0.6.1,<1.0.0"
+manimpango = ">=0.7.0,<1.0.0"
 mapbox-earcut = ">=1.0.0"
 moderngl = ">=5.7.0,<6.0.0"
 moderngl-window = ">=2.0.0"
@@ -2958,4 +2958,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = ">=3.12"
-content-hash = "357005568b44202044704f5f9e92b8524aa50ca305424ea23dad10eaada28e25"
+content-hash = "b22d99550738fdcdec55fe1909676ec0c742eb618c5031e75faaf27276b17314"
